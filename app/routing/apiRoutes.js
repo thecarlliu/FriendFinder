@@ -21,12 +21,10 @@ module.exports = function(app) {
             }
         }
         //console.log("mostCompatible:"+mostCompatible.name); //for testing
-        //TODO: figure out how to change external html element.
-        //TODO: deploy to heroku
-        //TODO: add link to portfolio
-        //TODO: update README
+        //TODO: figure out how to change external html element. modal popup working, but cant sent info to it.
         //TODO: add form validation
         // var modalBody = $("#mostCompatibleFriendData");
+        //$("#mostCompatibleFriendData").empty();
         // modalBody.append("<p>Your Most Compatible Friend is: "+mostCompatible.name+"</p>");
         // modalBody.append("<img> src="+mostCompatible.photo);
     }
