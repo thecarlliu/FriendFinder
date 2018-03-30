@@ -10,7 +10,7 @@ function displayAll(list) {
 
         //Creates container
         var scotBox = $("<div>");
-        scotBox.addClass("col s12 m4 l2");
+        scotBox.addClass("col s6 m4 l2");
         //Creates image with attributes that hold information needed for modal when clicked.
         var scotImg = $("<img>");
         scotImg.attr("src", list[i].image);
