@@ -6,6 +6,6 @@
 - add scots info
 - create survey page layout
 - create about page layout
-- finish displayAll() and findMatch().
+- finish findMatch().
 - about page should give brief intro for what the snelling scots are and should show a card for each scot
 - if user clicks on card, display modal pop-up with name, pic, description
