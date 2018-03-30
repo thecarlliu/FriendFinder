@@ -14,4 +14,9 @@ module.exports = function(app) {
         res.sendFile(path.join(__dirname, "../public/html/survey.html"));
     });
 
+    //Sends user to the about page
+    app.get("/about", function (req, res) {
+        res.sendFile(path.join(__dirname, "../public/html/about.html"));
+    });
+
 };

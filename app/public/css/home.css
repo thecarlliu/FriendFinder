@@ -1,0 +1,22 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-position: center;
+}
+
+#box {
+    background-color: rgba(255,255,255, 0.5);
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    width: 350px;
+    height: 450px;
+}
+
+#logo {
+    margin-bottom: 100px;
+}
+
+.btn-small {
+    padding: 10px;
+    border-radius: 5px;
+}
