@@ -1,6 +1,7 @@
 //Node Modules
 var express = require("express");
 var bodyParser = require("body-parser");
+var path = require("path");
 
 //Initiates Express
 var app = express();
@@ -9,6 +10,13 @@ var PORT = process.env.PORT || 3000;
 //Sets up Express app to handle data parsing
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+
+// // Static directory
+app.use("/public", express.static(path.join(__dirname, "app/public")));
+// app.use('/css',express.static( 'app/public/css'));
+// app.use('/js',express.static( 'app/public/js'));
+// app.use('/images',express.static( 'app/public/images'));
+// app.use('/html', express.static( 'public/html'));
 
 //Imports htmlRoutes functions
 require("./app/routing/htmlRoutes")(app);
