@@ -19,20 +19,18 @@ module.exports = function(app) {
 //Compares user's answers to list of scots, determines most compatible, displays in modal pop-up.
 function findMatch(userChoices, listScots) {
     var userChoices = userChoices.split(",");
-    var highScore = 0;
+    var bestScore = Infinity;
     var match;
 
     //Algorithm for determining match
-    for (var i=0;i<listScots.length;i++) { //for each scot
+    for (var i=0;i<listScots.length;i++) { //for each scot,
         var scotChoices = listScots[i].responses.split(",");
         var currScore = 0;
-        for (var j=0;j<userChoices.length;j++) { //for each of the user's answers, compare user answer to respective scot answer
-            if (parseInt(userChoices[j]) === parseInt(scotChoices[j])) { //if they are the same,
-                currScore++; //increment currScore
-            }
+        for (var j=0;j<userChoices.length;j++) { //for each of the user's answers,
+            currScore+=parseInt(userChoices[j])-parseInt(scotChoices[j]); //increment currScore by difference between the value of a user's answer and a scot's answer
         }
-        if (currScore >= highScore) { //if the match score is higher than or equal to the high score,
-            highScore = currScore; //update high score
+        if (currScore <= bestScore) { //if the current score is less than or equal to the best score (lower is better),
+            bestScore = currScore; //update best score
             match = listScots[i]; //update match
         }
     }
