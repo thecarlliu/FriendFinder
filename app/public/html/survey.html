@@ -5,31 +5,129 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="/public/css/materialize.min.css" media="screen,projection"/>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import preferred font for this app - Lato-->
     <link href="https://fonts.googleapis.com/css?family=Lato:light" rel="stylesheet">
     <!--Import custom stylesheet-->
-    <link type="text/css" rel="stylesheet" href="../css/survey.css">
+    <link type="text/css" rel="stylesheet" href="/public/css/survey.css">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <title>Snelling Scots - Which Scot Are You?</title>
 </head>
 
-<body class="amber accent-4">
+<body>
 
-<header id="header" class="white amber-text text-accent-4 z-depth-2 center">
-    <img src="../images/snelling-scots-logo.png" alt-class="responsive-img" width="150px" height="150px">
-    <div class="row" align="center">
+<div id="header" class="row z-depth-2 center">
+    <a href="/" class="waves-effect waves-light">
+        <img src="/public/images/snelling-scots-logo.png" width="100px" height="100px">
+    </a>
+</div>
 
+<div id="box" class="row z-depth-2 center">
+    <div id="survey-area" class="white">
+        <div class="carousel carousel-slider">
+
+            <a class="carousel-item">
+                <div class="row">
+                    <h6>How early do you get up in the morning?</h6>
+                </div>
+                <div class="row">
+                    <div class="col s2 m3 l4"></div>
+                    <div class="col s8 m6 l4">
+                        <select id="a1">
+                            <option value="" disabled selected>Choose your answer:</option>
+                            <option value="1">Crack of dawn</option>
+                            <option value="2">Early</option>
+                            <option value="3">9AM</option>
+                            <option value="4">Later</option>
+                            <option value="5">I don't have enough alarms</option>
+                        </select>
+                    </div>
+                    <div class="col s2 m3 l4"></div>
+                </div>
+            </a>
+            <a class="carousel-item">
+                <div class="row">
+                    <h6>When do you go to bed?</h6>
+                </div>
+                <div class="row">
+                    <div class="col s2 m3 l4"></div>
+                    <div class="col s8 m6 l4">
+                        <select id="a2">
+                            <option value="" disabled selected>Choose your answer:</option>
+                            <option value="1">Before the monsters come out</option>
+                            <option value="2">Before midnight</option>
+                            <option value="3">1AM</option>
+                            <option value="4">I don't</option>
+                        </select>
+                    </div>
+                    <div class="col s2 m3 l4"></div>
+                </div>
+            </a>
+            <a class="carousel-item">
+                <div class="row">
+                    <h6>Favorite kind of movie?</h6>
+                </div>
+                <div class="row">
+                    <div class="col s2 m3 l4"></div>
+                    <div class="col s8 m6 l4">
+                        <select id="a3">
+                            <option value="" disabled selected>Choose your answer:</option>
+                            <option value="1">Action</option>
+                            <option value="2">Comedy</option>
+                            <option value="3">Sci-fi</option>
+                            <option value="4">History</option>
+                            <option value="4">DEMONS DEMONS DEMONS</option>
+                        </select>
+                    </div>
+                    <div class="col s2 m3 l4"></div>
+                </div>
+            </a>
+            <a class="carousel-item">
+                <div class="row">
+                    <h6>Favorite kind of movie?</h6>
+                </div>
+                <div class="row">
+                    <div class="col s2 m3 l4"></div>
+                    <div class="col s8 m6 l4">
+                        <select id="a4">
+                            <option value="" disabled selected>Choose your answer:</option>
+                            <option value="1">Action</option>
+                            <option value="2">Comedy</option>
+                            <option value="3">Sci-fi</option>
+                            <option value="4">History</option>
+                            <option value="4">DEMONS DEMONS DEMONS</option>
+                        </select>
+                    </div>
+                    <div class="col s2 m3 l4"></div>
+                </div>
+            </a>
+
+        </div>
     </div>
-</header>
+</div>
+
+<div class="row center">
+    <div class="col s2 m3 l4"></div>
+    <div class="col s4 m3 l2">
+        <a id="prev-btn" class="btn waves-effect white grey-text darken-text-2">
+            <i class="material-icons">chevron_left</i>
+        </a>
+    </div>
+    <div class="col s4 m3 l2">
+        <a id="next-btn" class="btn waves-effect white grey-text darken-text-2">
+            <i class="material-icons">chevron_right</i>
+        </a>
+    </div>
+    <div class="col s2 m3 l4"></div>
+</div>
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="../js/materialize.min.js"></script>
-<script type="text/javascript" src="../js/survey.js"></script>
+<script type="text/javascript" src="/public/js/materialize.min.js"></script>
+<script type="text/javascript" src="/public/js/survey.js"></script>
 
 </body>
 </html>

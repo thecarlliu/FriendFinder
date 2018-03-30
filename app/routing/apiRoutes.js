@@ -18,7 +18,6 @@ module.exports = function(app) {
 
 //Compares user's answers to list of scots, determines most compatible, displays in modal pop-up.
 function findMatch(userChoices, listScots) {
-    var userChoices = userChoices.split(",");
     var bestScore = Infinity;
     var match;
 
