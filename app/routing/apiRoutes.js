@@ -22,6 +22,7 @@ function findMatch(userChoices, listScots) {
     var highScore = 0;
     var match;
 
+    //Algorithm for determining match
     for (var i=0;i<listScots.length;i++) { //for each scot
         var scotChoices = listScots[i].responses.split(",");
         var currScore = 0;
