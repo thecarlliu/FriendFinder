@@ -4,6 +4,5 @@
 
 ####TODOs:
 
-- create about page layout (logo+intro+galleryspace+hiddenmodal)
 - add scots info samples (waiting on survey responses)
 - convert list[i].responses to arrays of integers once enough samples are received
