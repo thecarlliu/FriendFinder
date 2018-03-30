@@ -27,9 +27,9 @@ function displayAll(list) {
 //When an image of a scot is clicked, triggers modal pop-up with the appropriate info.
 function displayScot(obj) {
     //Adds info from img-attributes to modal
-    $("#scot-modal-mesaage").text("Meet "+obj.attr("scot-name"));
-    $("#scot-modal-img").attr("src", obj.attr("src"));
-    $("#scot-modal-description").text(obj.attr("scot-description"));
+    $("#scot-mesaage").text("Meet "+obj.attr("scot-name"));
+    $("#scot-img").attr("src", obj.attr("src"));
+    $("#scot-description").text(obj.attr("scot-description"));
 
     //Shows the modal
     $("#scot-modal").modal("toggle");

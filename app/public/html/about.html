@@ -5,37 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="/public/css/materialize.min.css" media="screen,projection"/>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import preferred font for this app - Lato-->
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <!--Import custom stylesheet-->
-    <link type="text/css" rel="stylesheet" href="../css/style.css">
+    <link type="text/css" rel="stylesheet" href="/public/css/style.css">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <title>Snelling Scots - Who are the Snelling Scots?</title>
 </head>
-<body class="amber accent-4">
+<body>
 
-<div id="homepage-box" class="container center">
-    <div class="row">
-        <img id="logo-home" src="../images/snelling-scots-logo.png" width="300px" height="300px">
+<div id="header" class="row z-depth-2 center">
+    <a href="/" class="waves-effect waves-light">
+        <img src="/public/images/snelling-scots-logo.png" width="100px" height="100px">
+    </a>
+</div>
+
+<div id="box" class="row z-depth-2 center">
+    <div id="gallery">
+
+
+
+
+
     </div>
-    <div class="row">
-        <a href="/survey" class="btn-small amber accent-4 white-text">
-            Take the survey!
-        </a>
-        <a href="/gallery" class="btn-small amber accent-4 white-text">
-            Who are the Snelling Scots?
-        </a>
+</div>
+
+<div id="scot-modal" class="modal">
+    <div class="modal-content">
+        <h6 id="scot-message"></h6>
+        <h5 id="scot-name"></h5>
+        <img src="">
+        <p id="scot-description"></p>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-light btn-flat">ok!</a>
     </div>
 </div>
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="../js/materialize.min.js"></script>
-<script type="text/javascript" src="../js/about.js"></script>
+<script type="text/javascript" src="/public/js/materialize.min.js"></script>
+<script type="text/javascript" src="/public/js/about.js"></script>
 
 </body>
 </html>
