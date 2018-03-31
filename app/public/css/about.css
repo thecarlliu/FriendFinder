@@ -24,3 +24,8 @@ body {
     margin-left:2.5%;
     width: 95%;
 }
+
+#description {
+    padding-left: 10px;
+    padding-right: 10px;
+}
