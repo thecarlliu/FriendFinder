@@ -17,6 +17,18 @@ var list = [
         image: "../public/images/jedBuchholz.png",
         description:"Just a dude from a farm who loves hockey and hates the twin cities.",
         responses: "9AM,1AM,DEMONS DEMONS DEMONS,Rye Whiskey,Dark Matter & Cafe Mac Chicken Breasts,Back squat,Econ,Hockey,Dragon Teeth by Michael Crichton,The Distance by Cake"
+    },
+    {
+        name: "Will DeBruin",
+        image: "../public/images/willDebruin.png",
+        description:"My name is Will and I take an absurd amount of pride in being from Appleton, WI.  I recently replaced AJ as having the biggest bicep to body size ratio on the Football team.  When I’m not making gains in the gym, you can find me studying on the third floor of OLRI.  My favorite animal is flamingoes.",
+        responses: "I don't have enough alarms,1AM,DEMONS DEMONS DEMONS,Wine,Protein Powder,Squat,Neuroscience,Making Gainz,The Great Gatsby,Sunday Candy by Chance the Rapper"
+    },
+    {
+        name: "Billy Retza",
+        image: "../public/images/billyRetza.png",
+        description:"",
+        responses: "9AM,I don't,Action,Schnaaps,Chicken Pasta with Spinach,Curls,Physics,Online Strategy Games,Airman,"
     }
 ];
 
