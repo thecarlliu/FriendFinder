@@ -13,7 +13,7 @@ var list = [
         responses: "Later,1am,Comedy,Henessy,Chicken and Biscuits,Cleans,Neuroscience,Roasting any- and everybody in sight,What's a book?,Alright by Kendrick Lamar"
     },
     {
-        name: "Jed Buccholz",
+        name: "Jed Buchholz",
         image: "../public/images/jedBuchholz.png",
         description:"Just a dude from a farm who loves hockey and hates the twin cities.",
         responses: "9AM,1AM,DEMONS DEMONS DEMONS,Rye Whiskey,Dark Matter & Cafe Mac Chicken Breasts,Back squat,Econ,Hockey,Dragon Teeth by Michael Crichton,The Distance by Cake"
