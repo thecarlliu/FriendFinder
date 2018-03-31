@@ -11,6 +11,12 @@ var list = [
         image: "../public/images/andrewSmith.png",
         description: "There is never a boring moment when I am around. I’m the type of person you should never hand a microphone to or actually listen to the things I say unless you want to laugh at yourself.... and then everyone else as my official motto is “Ain’t nobody safe!” As a result of this endearing character trait that I have people often ask me if I really believe even half of the stuff that comes out of my mouth. Truthfully, I’m never quite sure until I’m done talking.",
         responses: "Later,1am,Comedy,Henessy,Chicken and Biscuits,Cleans,Neuroscience,Roasting any- and everybody in sight,What's a book?,Alright by Kendrick Lamar"
+    },
+    {
+        name: "Jed Buccholz",
+        image: "../public/images/jedBuchholz.png",
+        description:"Just a dude from a farm who loves hockey and hates the twin cities.",
+        responses: "9AM,1AM,DEMONS DEMONS DEMONS,Rye Whiskey,Dark Matter & Cafe Mac Chicken Breasts,Back squat,Econ,Hockey,Dragon Teeth by Michael Crichton,The Distance by Cake"
     }
 ];
 
