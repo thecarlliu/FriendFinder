@@ -24,3 +24,11 @@ body {
     margin-left:2.5%;
     width: 95%;
 }
+
+.carousel .indicators .indicator-item {
+    background-color: rgba(255,171,0, 0.5);
+}
+
+.carousel .indicators .indicator-item.active {
+    background-color: rgb(255,171,0);
+}

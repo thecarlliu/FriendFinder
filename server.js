@@ -11,7 +11,7 @@ var PORT = process.env.PORT || 3000;
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-// // Static directory
+//Static directory
 app.use("/public", express.static(path.join(__dirname, "app/public")));
 
 //Imports htmlRoutes functions
