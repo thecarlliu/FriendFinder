@@ -4,5 +4,6 @@
 
 ####TODOs:
 
+- Figure out why carousel items are not displaying.
 - add more scots as samples come in
-- finish questions and matching algorithm: convert list[i].responses to arrays of integers once enough samples are received
+- finish questions and matching convert responses in scots.js to integers on scale based on choices of answers.

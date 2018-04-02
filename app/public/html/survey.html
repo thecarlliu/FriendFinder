@@ -28,84 +28,7 @@
 
 <div id="box" class="row z-depth-2 center">
     <div id="survey-area">
-        <div class="carousel carousel-slider">
-
-            <a class="carousel-item amber-text text-accent-4">
-                <div class="row">
-                    <h6>How early do you get up in the morning?</h6>
-                </div>
-                <div class="row">
-                    <div class="col s2 m3 l4"></div>
-                    <div class="col s8 m6 l4">
-                        <select id="a1">
-                            <option value="" disabled selected>Choose your answer:</option>
-                            <option value="1">Crack of dawn</option>
-                            <option value="2">Early</option>
-                            <option value="3">9AM</option>
-                            <option value="4">Later</option>
-                            <option value="5">I don't have enough alarms</option>
-                        </select>
-                    </div>
-                    <div class="col s2 m3 l4"></div>
-                </div>
-            </a>
-            <a class="carousel-item amber-text text-accent-4">
-                <div class="row">
-                    <h6>When do you go to bed?</h6>
-                </div>
-                <div class="row">
-                    <div class="col s2 m3 l4"></div>
-                    <div class="col s8 m6 l4">
-                        <select id="a2">
-                            <option value="" disabled selected>Choose your answer:</option>
-                            <option value="1">Before the monsters come out</option>
-                            <option value="2">Before midnight</option>
-                            <option value="3">1AM</option>
-                            <option value="4">I don't</option>
-                        </select>
-                    </div>
-                    <div class="col s2 m3 l4"></div>
-                </div>
-            </a>
-            <a class="carousel-item amber-text text-accent-4">
-                <div class="row">
-                    <h6>Favorite kind of movie?</h6>
-                </div>
-                <div class="row">
-                    <div class="col s2 m3 l4"></div>
-                    <div class="col s8 m6 l4">
-                        <select id="a3">
-                            <option value="" disabled selected>Choose your answer:</option>
-                            <option value="1">Action</option>
-                            <option value="2">Comedy</option>
-                            <option value="3">Sci-fi</option>
-                            <option value="4">History</option>
-                            <option value="4">DEMONS DEMONS DEMONS</option>
-                        </select>
-                    </div>
-                    <div class="col s2 m3 l4"></div>
-                </div>
-            </a>
-            <a class="carousel-item amber-text text-accent-4">
-                <div class="row">
-                    <h6>Last question</h6>
-                </div>
-                <div class="row">
-                    <div class="col s2 m3 l4"></div>
-                    <div class="col s8 m6 l4">
-                        <select id="a10">
-                            <option value="" disabled selected>Choose your answer:</option>
-                            <option value="1">Action</option>
-                            <option value="2">Comedy</option>
-                            <option value="3">Sci-fi</option>
-                            <option value="4">History</option>
-                            <option value="4">DEMONS DEMONS DEMONS</option>
-                        </select>
-                        <br>
-                    </div>
-                    <div class="col s2 m3 l4"></div>
-                </div>
-            </a>
+        <div id="survey-carousel" class="carousel carousel-slider">
 
         </div>
     </div>
@@ -134,7 +57,7 @@
         </a>
     </div>
     <div class="col s4 m3 l2">
-        <a id="submit-btn" class="btn waves-effect white amber-text text-accent-4 z-depth-2">
+        <a id="submit-btn" data-target="#match-modal" class="btn waves-effect white amber-text text-accent-4 z-depth-2 modal-trigger">
             <i class="material-icons">send</i>
         </a>
     </div>
@@ -142,14 +65,14 @@
 </div>
 
 <div id="match-modal" class="modal">
-    <div class="modal-content">
+    <div class="modal-content amber-text text-accent-4 center">
         <h6 id="match-message"></h6>
         <h5 id="match-name"></h5>
-        <img src="">
+        <img id="match-image" src="">
         <p id="match-description"></p>
     </div>
     <div class="modal-footer">
-        <a href="#!" class="modal-action modal-close waves-effect waves-light btn-flat">ok!</a>
+        <a href="#!" class="modal-action modal-close waves-effect waves-light btn-flat"><i class="material-icons amber-text text-accent-4">close</i></a>
     </div>
 </div>
 

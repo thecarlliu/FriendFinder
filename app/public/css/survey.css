@@ -32,3 +32,8 @@ body {
 .carousel .indicators .indicator-item.active {
     background-color: rgb(255,171,0);
 }
+
+[type="radio"]:not(:checked), [type="radio"]:checked {
+    opacity: 1;
+    color: #ffab00; /*notworking}*/
+}
