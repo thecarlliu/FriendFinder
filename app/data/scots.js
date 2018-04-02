@@ -23,7 +23,26 @@ var list = [
         image: "../public/images/billyRetza.png",
         description:"",
         responses: "9AM,I don't,Action,Schnaaps,Chicken Pasta with Spinach,Curls,Physics,Online Strategy Games,Airman,"
+    },
+    {
+        name: "John Doak",
+        image: "../public/images/johnDoak.png",
+        description: "Basically a full on dad at the age of 21.",
+        responses: "Depends on the day. Weekends are later.,1AM,Action,Beer,Steak,Pull-ups,Economics,Anything outside,A Storm of Swords,Bohemian Rhapsody"
+    },
+    {
+        name: "Jacob Jones",
+        image: "../public/images/jacobJones.png",
+        description: "Incredibly good looking, rugged stud. Have to carry a bat around with me to beat away all the women I attract. I excel in most things. Politically incorrect. Not a fan of spiders. I bench more than AJ. Phil calls me daddy.",
+        responses: "Later, 1AM, Action, Cider, Tuna, Bench, Psych, Guitar/Piano, Bible, Sweet Home Alabama"
+    },
+    {
+        name: "Josh Bartz",
+        image: "../public/images/joshBartz.png",
+        description: "I am Josh Bartz I was born in Madison but raised in the Omaha area.  I am a sports and board game enthusiast and spend most of my time hanging out with my friends.  I also really enjoy reading books and dogs.",
+        responses: "Early, Before Midnight, Comedy, Milk, Macaroni and Cheese with Steak, Squats, Physics and Computer Science, Reading, The Demon King, The National Anthem"
     }
+
 ];
 
 //Store data in an object to be exported.
