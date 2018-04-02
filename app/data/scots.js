@@ -21,8 +21,8 @@ var list = [
     {
         name: "Billy Retza",
         image: "../public/images/billyRetza.png",
-        description:"",
-        responses: "9AM,I don't,Action,Schnaaps,Chicken Pasta with Spinach,Curls,Physics,Online Strategy Games,Airman,"
+        description:"Billy is a small town farm boy who has big dreams of being an aerospace engineer. he enjoys relaxing either alone or with those he is close to. In a jam you can always count on him to assist you, unless there is a engineering problem to solve, then he will help you at his earliest convenience. on weekends Billy sometimes transforms into his true form of Wild Bill and anything is possible!",
+        responses: "9AM,I don't,Action,Schnaaps,Chicken Pasta with Spinach,Curls,Physics,Online Strategy Games,Airman,Rose Tattoo by Dropkick Murphys"
     },
     {
         name: "Connor Doak",
