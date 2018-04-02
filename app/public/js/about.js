@@ -1,5 +1,7 @@
 //AJAX gets all scots from the API.
-$.get("/api/all", function(scots) {
+$.get("/api/all", function(req, res) {
+
+}).then(function(scots) {
     displayAll(scots);
 });
 
@@ -14,9 +16,11 @@ function displayAll(list) {
         //Creates image with attributes that hold information needed for modal when clicked.
         var scotImg = $("<img>");
         scotImg.attr("src", list[i].image);
+        scotImg.attr("width", "100px");
+        scotImg.attr("height", "100px");
         scotImg.attr("scot-name", list[i].name);
         scotImg.attr("scot-description", list[i].description);
-        scotImg.attr("onclick", displayScot(this));
+        scotImg.attr("onclick", "displayScot(this)");
 
         //Display
         scotBox.append(scotImg);
@@ -25,12 +29,12 @@ function displayAll(list) {
 }
 
 //When an image of a scot is clicked, triggers modal pop-up with the appropriate info.
-function displayScot(obj) {
+function displayScot(scot) {
     //Adds info from img-attributes to modal
-    $("#scot-mesaage").text("Meet "+obj.attr("scot-name"));
-    $("#scot-img").attr("src", obj.attr("src"));
-    $("#scot-description").text(obj.attr("scot-description"));
+    $("#scot-name").text("Meet "+$(scot).attr("scot-name"));
+    $("#scot-img").attr("src", $(scot).attr("src")); //says src unknown
+    $("#scot-description").text($(scot).attr("scot-description"));
 
     //Shows the modal
-    $("#scot-modal").modal("toggle");
+    $("#scot-modal").modal("show"); //says this method doesnt exist
 }
