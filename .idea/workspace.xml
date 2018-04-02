@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="127ce68e-77f6-4d6f-943a-9480b58979eb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/data/scots.js" afterPath="$PROJECT_DIR$/app/data/scots.js" />
-      <change beforePath="$PROJECT_DIR$/questions.txt" afterPath="$PROJECT_DIR$/questions.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,8 +36,8 @@
       <file leaf-file-name="scots.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/data/scots.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="42" column="172" lean-forward="false" selection-start-line="42" selection-start-column="172" selection-end-line="42" selection-end-column="172" />
+            <state relative-caret-position="427">
+              <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -60,8 +58,8 @@
       <list>
         <option value="$PROJECT_DIR$/app/public/js/survey.js" />
         <option value="$PROJECT_DIR$/app/public/css/survey.css" />
-        <option value="$PROJECT_DIR$/app/data/scots.js" />
         <option value="$PROJECT_DIR$/questions.txt" />
+        <option value="$PROJECT_DIR$/app/data/scots.js" />
       </list>
     </option>
   </component>
@@ -75,7 +73,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="464" />
+    <option name="x" value="306" />
     <option name="y" value="23" />
     <option name="width" value="942" />
     <option name="height" value="823" />
@@ -271,15 +269,15 @@
       <option name="presentableId" value="Default" />
       <updated>1522611226173</updated>
       <workItem from="1522611227495" duration="1203000" />
-      <workItem from="1522640650956" duration="733000" />
+      <workItem from="1522640650956" duration="993000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1936000" />
+    <option name="totallyTimeSpent" value="2196000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="464" y="23" width="942" height="823" extended-state="0" />
+    <frame x="306" y="23" width="942" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -407,8 +405,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/data/scots.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="42" column="172" lean-forward="false" selection-start-line="42" selection-start-column="172" selection-end-line="42" selection-end-column="172" />
+        <state relative-caret-position="427">
+          <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
           <folding />
         </state>
       </provider>

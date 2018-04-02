@@ -25,8 +25,8 @@ var list = [
         responses: "9AM,I don't,Action,Schnaaps,Chicken Pasta with Spinach,Curls,Physics,Online Strategy Games,Airman,"
     },
     {
-        name: "John Doak",
-        image: "../public/images/johnDoak.png",
+        name: "Connor Doak",
+        image: "../public/images/connorDoak.png",
         description: "Basically a full on dad at the age of 21.",
         responses: "Depends on the day. Weekends are later.,1AM,Action,Beer,Steak,Pull-ups,Economics,Anything outside,A Storm of Swords,Bohemian Rhapsody"
     },
