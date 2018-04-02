@@ -4,6 +4,6 @@
 
 ####TODOs:
 
-- Figure out why carousel items are not displaying.
+- Carousel items displaying, but not occupying enough space (carousel too small need to change height)
 - add more scots as samples come in
 - finish questions and matching convert responses in scots.js to integers on scale based on choices of answers.

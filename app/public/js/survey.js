@@ -1,5 +1,10 @@
 var userChoices = [0,0,0,0,0,0,0,0,0,0];
 
+//Initializes carousel and select
+$(document).ready(function(){
+    $('.modal').modal();
+});
+
 //Retrieves questions from data, and creates carousel items with the appropriate content for each question and their respective set of answers.
 $.get("/api/questions", function(req, res) {
 }).then(function(questions) {
@@ -17,12 +22,8 @@ $.get("/api/questions", function(req, res) {
         var aDiv = $("<div>");
         aDiv.addClass("row");
 
-        var emptyDiv1 = $("<div>");
-        emptyDiv1.addClass("col s2 m3 l4");
-        var emptyDiv2 = $("<div>");
-        emptyDiv2.addClass("col s2 m3 l4");
         var aInputs = $("<div>");
-        aInputs.addClass("col s8 m6 l4");
+        aInputs.addClass("col s12 m12 l12");
         var form = $("<form>");
         form.attr("action", "#");
         var aRow = $("<div>");
@@ -31,7 +32,7 @@ $.get("/api/questions", function(req, res) {
         for (var j=0; j<questions[i].answers.length;j++) {
 
             var aCol = $("<div>");
-            aCol.addClass("col s3");
+            aCol.addClass("col s3 m3 l3");
             var p = $("<p>");
             var label = $("<label>");
             label.attr("for", questions[i].id+"A"+(parseInt(j)+1).toString());
@@ -59,19 +60,11 @@ $.get("/api/questions", function(req, res) {
 
         form.append(aRow);
         aInputs.append(form);
-        aDiv.append(emptyDiv1);
         aDiv.append(aInputs);
-        aDiv.append(emptyDiv2);
         carouselItem.append(aDiv);
         $("#survey-carousel").append(carouselItem);
     }
-});
-
-//Initializes carousel and select
-$(document).ready(function(){
     $('.carousel.carousel-slider').carousel({fullWidth: true, indicators: true});
-    $('select').material_select();
-    $('.modal').modal();
 });
 
 //Shows previous question
