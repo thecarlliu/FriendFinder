@@ -4,5 +4,5 @@
 
 ####TODOs:
 
-- add scots info samples (waiting on survey responses)
-- convert list[i].responses to arrays of integers once enough samples are received
+- add more scots as samples come in
+- finish questions and matching algorithm: convert list[i].responses to arrays of integers once enough samples are received
