@@ -32,7 +32,7 @@ function findMatch(userChoices, listScots) {
         var scotChoices = listScots[i].responses;
         var currScore = 0;
         for (var j=0;j<userChoices.length;j++) { //for each of the user's answers,
-            currScore+=userChoices[j]-scotChoices[j]; //increment currScore by difference between the value of a user's answer and a scot's answer
+            currScore+=Math.abs(userChoices[j]-scotChoices[j]); //increment currScore by difference between the value of a user's answer and a scot's answer
         }
         if (currScore <= bestScore) { //if the current score is less than or equal to the best score (lower is better),
             bestScore = currScore; //update best score

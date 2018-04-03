@@ -47,6 +47,12 @@ var list = [
         image: "../public/images/jeremyStephan.png",
         description: "Premed, chemistry major from Duluth, MN and a future astronaut.",
         responses: "Crack of Dawn, Before the monsters come out, Sci-fi, Water, Chicken and Brocoli, Power Clean and Front Squat, Chemistry, Gargling Mouthwash, When Breath Becomes Air, Shake your Rump to the Funk"
+    },
+    {
+        name: "Jack Streibich",
+        image: "../public/images/jackStreibich.png",
+        description: "Too cool for a description",
+        responses: "Early, before midnight, comedy, tequila, chicken and pasta, clean, anthropology and econ, skiing, catcher in the rye, slippery-Migos"
     }
 
 ];
