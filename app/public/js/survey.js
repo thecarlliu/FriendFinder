@@ -32,7 +32,7 @@ $.get("/api/questions", function(req, res) {
         for (var j=0; j<questions[i].answers.length;j++) {
 
             var aCol = $("<div>");
-            aCol.addClass("col s3 m3 l3");
+            aCol.addClass("col s6 m4 l3");
             var p = $("<p>");
             var label = $("<label>");
             label.attr("for", questions[i].id+"A"+(parseInt(j)+1).toString());

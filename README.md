@@ -4,6 +4,8 @@
 
 ####TODOs:
 
-- Carousel items displaying, but not occupying enough space (carousel too small need to change height)
+- adjust radio button position/labels
+- add images to answer choices
 - add more scots as samples come in
-- finish questions and matching convert responses in scots.js to integers on scale based on choices of answers.
+- convert responses in scots.js to integers on scale based on choices of answers.
+- create a samples.txt to store raw sample responses

@@ -25,6 +25,10 @@ body {
     width: 95%;
 }
 
+.carousel {
+    min-height: 750px;
+}
+
 .carousel .indicators .indicator-item {
     background-color: rgba(255,171,0, 0.5);
 }
@@ -35,5 +39,5 @@ body {
 
 [type="radio"]:not(:checked), [type="radio"]:checked {
     opacity: 1;
-    color: #ffab00; /*notworking}*/
+    background-color: #ffab00; /*notworking}*/
 }
