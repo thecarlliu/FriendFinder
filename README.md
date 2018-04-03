@@ -5,7 +5,9 @@
 ####TODOs:
 
 - adjust radio button position/labels
+- reorder answer choices on a scale
 - add images to answer choices
+
 - add more scots as samples come in
 - convert responses in scots.js to integers on scale based on choices of answers.
 - create a samples.txt to store raw sample responses
