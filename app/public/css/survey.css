@@ -37,7 +37,15 @@ body {
     background-color: rgb(255,171,0);
 }
 
-[type="radio"]:not(:checked), [type="radio"]:checked {
-    opacity: 1;
-    background-color: #ffab00; /*notworking}*/
+label {
+    color: #ffab00;
+}
+
+[type="radio"]:not(:checked)+label:before, [type="radio"]:not(:checked)+label:after {
+    border: 2px solid #ffab00;
+}
+
+[type="radio"]:checked+label:before, [type="radio"]:checked+label:after {
+    border: 2px solid #ffab00;
+    background-color: #ffab00;
 }

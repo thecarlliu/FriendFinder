@@ -4,7 +4,6 @@
 
 ####TODOs:
 
-- change radio button colors
 - reorder answer choices on a scale
 - add images to answer choices
 

@@ -43,7 +43,6 @@ $.get("/api/questions", function(req, res) {
             input.attr("name", questions[i].id);
             input.attr("value", j+1);
             input.attr("type", "radio");
-            var br = $("<br>");
             var span = $("<span>");
             span.text(questions[i].answers[j]);
             var aImg = $("<img>");
@@ -51,9 +50,8 @@ $.get("/api/questions", function(req, res) {
             aImg.attr("width", "100px");
             aImg.attr("height", "100px");
 
-            label.append(input);
-            label.append(br);
             label.append(span);
+            p.append(input);
             p.append(label);
             aCol.append(p);
             aCol.append(aImg);
