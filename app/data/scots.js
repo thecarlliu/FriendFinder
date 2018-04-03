@@ -41,6 +41,12 @@ var list = [
         image: "../public/images/joshBartz.png",
         description: "I am Josh Bartz I was born in Madison but raised in the Omaha area.  I am a sports and board game enthusiast and spend most of my time hanging out with my friends.  I also really enjoy reading books and dogs.",
         responses: "Early, Before Midnight, Comedy, Milk, Macaroni and Cheese with Steak, Squats, Physics and Computer Science, Reading, The Demon King, The National Anthem"
+    },
+    {
+        name: "Jeremy Stephan",
+        image: "../public/images/jeremyStephan.png",
+        description: "Premed, chemistry major from Duluth, MN and a future astronaut.",
+        responses: "Crack of Dawn, Before the monsters come out, Sci-fi, Water, Chicken and Brocoli, Power Clean and Front Squat, Chemistry, Gargling Mouthwash, When Breath Becomes Air, Shake your Rump to the Funk"
     }
 
 ];
