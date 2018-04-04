@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="127ce68e-77f6-4d6f-943a-9480b58979eb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/data/scots.js" afterPath="$PROJECT_DIR$/app/data/scots.js" />
+      <change beforePath="$PROJECT_DIR$/app/data/questions.js" afterPath="$PROJECT_DIR$/app/data/questions.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +13,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="scots.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="scots.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/data/scots.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="66" column="145" lean-forward="true" selection-start-line="66" selection-start-column="145" selection-end-line="66" selection-end-column="145" />
+            <state relative-caret-position="103">
+              <caret line="43" column="6" lean-forward="true" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="questions.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/data/questions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1680">
+              <caret line="59" column="434" lean-forward="false" selection-start-line="59" selection-start-column="434" selection-end-line="59" selection-end-column="434" />
               <folding />
             </state>
           </provider>
@@ -54,8 +64,8 @@
         <option value="$PROJECT_DIR$/app/public/css/survey.css" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/routing/apiRoutes.js" />
-        <option value="$PROJECT_DIR$/app/data/questions.js" />
         <option value="$PROJECT_DIR$/app/data/scots.js" />
+        <option value="$PROJECT_DIR$/app/data/questions.js" />
       </list>
     </option>
   </component>
@@ -69,7 +79,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="559" />
+    <option name="x" value="299" />
     <option name="y" value="23" />
     <option name="width" value="942" />
     <option name="height" value="823" />
@@ -236,15 +246,15 @@
       <workItem from="1522652298206" duration="1186000" />
       <workItem from="1522697353853" duration="2029000" />
       <workItem from="1522700435226" duration="10935000" />
-      <workItem from="1522776833838" duration="5641000" />
+      <workItem from="1522776833838" duration="5958000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22200000" />
+    <option name="totallyTimeSpent" value="22517000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="559" y="23" width="942" height="823" extended-state="0" />
+    <frame x="299" y="23" width="942" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -515,14 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/data/questions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1252">
-          <caret line="59" column="282" lean-forward="false" selection-start-line="59" selection-start-column="282" selection-end-line="59" selection-end-column="282" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/routing/apiRoutes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
@@ -541,8 +543,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/data/scots.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="66" column="145" lean-forward="true" selection-start-line="66" selection-start-column="145" selection-end-line="66" selection-end-column="145" />
+        <state relative-caret-position="103">
+          <caret line="43" column="6" lean-forward="true" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/data/questions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="59" column="434" lean-forward="false" selection-start-line="59" selection-start-column="434" selection-end-line="59" selection-end-column="434" />
           <folding />
         </state>
       </provider>

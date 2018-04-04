@@ -20,44 +20,44 @@ var list = [
     {
         id: "Q4",
         question: "Favorite alcoholic beverage?",
-        answers: ["Hennessy", "Whiskey", "Schnaaps", "Wine", "Beer", "Cider", "Milk", "Water", "Tequila"],
-        images: ["https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100"]
+        answers: ["Hennessy", "Whiskey", "Schnaaps", "Wine", "Beer", "Cider", "Milk", "Water", "Tequila", "Fireball", "Sidewalk Slammer"],
+        images: ["https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100"]
     },
     {
         id: "Q5",
         question: "Favorite gainz meal?",
-        answers: ["Chicken and Biscuits", "Dark Matter and CafeMac Chicken Breasts", "Protein Powder", "Chicken Pasta with Spinach","Steak", "Tuna", "Macaroni & Cheese with Steak", "Chicken and Broccoli", "Chicken and Pasta"],
-        images: ["https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100"]
+        answers: ["Chicken and Biscuits", "Dark Matter and CafeMac Chicken Breasts", "Protein Powder", "Chicken Pasta with Spinach","Steak", "Tuna", "Macaroni & Cheese with Steak", "Chicken and Broccoli", "Chicken and Pasta", "Fried Chicken", "Hawaiian Food"],
+        images: ["https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100"]
     },
     {
         id: "Q6",
         question: "Favorite lift?",
-        answers: ["Cleans", "Squat", "Curls", "Pull-ups", "Bench", "Power Clean and Front Squat"],
-        images: ["https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100"]
+        answers: ["Cleans", "Squat", "Curls", "Cable Rows", "Hamstring Curls", "Pull-ups", "Bench", "Power Clean and Front Squat"],
+        images: ["https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100"]
     },
     {
         id: "Q7",
         question: "Major?",
-        answers: ["Neuroscience", "Chemistry", "Economics", "Psychology", "Physics", "Computer Science", "Anthropology and Economics"],
-        images: ["https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100"]
+        answers: ["Neuroscience", "Chemistry", "Economics", "Psychology", "Physics", "Computer Science", "Anthropology and Economics", "History", "Anthropology"],
+        images: ["https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100"]
     },
     {
         id: "Q8",
         question: "Favorite hobby?",
-        answers: ["Roasting people", "Hockey", "Making Gainz", "Online Strategy Games", "Anything outside", "Skiing", "Playing instruments", "Reading", "Gargling Mouthwash"],
-        images: ["https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100"]
+        answers: ["Roasting people", "Hockey", "Making Gainz", "Online Strategy Games", "Anything outside", "Skiing", "Playing instruments", "Reading", "Gargling Mouthwash", "Napping", "Netflix"],
+        images: ["https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100"]
     },
     {
         id: "Q9",
         question: "Favorite book?",
-        answers: ["What's a book?", "Dragon Teeth by Michael Crichton", "The Great Gatsby by F. Scott Fitzgerald", "Airman by Eoin Colfer", "A Storm of Swords by George R.R. Martin","The Bible", "The Demon King by Cinda Williams Chima", "When Breath Becomes Air by Paul Kalanithi", "The Catcher in the Rye by J. D. Salinger"],
-        images: ["https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100"]
+        answers: ["What's a book?", "Dragon Teeth by Michael Crichton", "The Great Gatsby by F. Scott Fitzgerald", "Airman by Eoin Colfer", "A Storm of Swords by George R.R. Martin","The Bible", "The Demon King by Cinda Williams Chima", "When Breath Becomes Air by Paul Kalanithi", "The Catcher in the Rye by J. D. Salinger", "The Lorax by Dr.Seuss", "Ishmael by Daniel Quinn"],
+        images: ["https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100"]
     },
     {
         id: "Q10",
         question: "What's your anthem?",
-        answers: ["Alright by Kendrick Lamar", "The Distance by Cake", "Sunday Candy by Chance the Rapper", "Rose Tattoo by Dropkick Murphys", "Bohemian Rhapsody", "Sweet Home Alabama", "Slippery - Migos", "The National Anthem", "Shake your Rump to the Funk by the Bar Kays"],
-        images: ["https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100"]
+        answers: ["Alright by Kendrick Lamar", "The Distance by Cake", "Sunday Candy by Chance the Rapper", "Rose Tattoo by Dropkick Murphys", "Bohemian Rhapsody", "Sweet Home Alabama", "Slippery - Migos", "The National Anthem", "Shake your Rump to the Funk by the Bar Kays", "Public Service Announcement - Jay Z", "Excuse Me - A$AP Rocky"],
+        images: ["https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100","https://via.placeholder.com/100x100"]
     }
 ];
 
