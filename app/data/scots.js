@@ -53,6 +53,18 @@ var list = [
         image: "../public/images/jackStreibich.png",
         description: "Too cool for a description",
         responses: "Early, before midnight, comedy, tequila, chicken and pasta, clean, anthropology and econ, skiing, catcher in the rye, slippery-Migos"
+    },
+    {
+        name: "Jonathan Goldman",
+        image: "../public/images/jonathanGoldman.png",
+        description: "I spend 10 hours a week as a student and 50 hours working as an advisor. I sleep maybe 40 hours and the rest is dedicated to rocket league, PUBG and fortnite. Chinese buffets are the shit and the power of the jew is more real then ever.",
+        responses: "I don't have enough alarms, I don't, Comedy, Fireball, Fried Chickn, Cable Rows, History, Napping, The Lorax, Public Service Anouncement - JayZ"
+    },
+    {
+        name: "Dane Ku",
+        image: "../public/images/daneKu.png",
+        description: "Too cool for a description",
+        responses: "Early, 1am, Action, Sidewalk Slammer, Hawaiian Food, Hamstring Curls, Anthropology, Netflix, Ishmael, Excuse me - A$AP Rocky"
     }
 
 ];
