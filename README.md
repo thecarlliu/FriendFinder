@@ -5,7 +5,7 @@
 ####TODOs:
 
 - reorder answer choices on a scale
-- add images to answer choices
+- add images to answer choices (after placing avatar images into a folder called avatars, choice images go into folder called choices)
 
 - add more scots as samples come in
 - convert responses in scots.js to integers on scale based on choices of answers.

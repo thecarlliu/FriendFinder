@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="127ce68e-77f6-4d6f-943a-9480b58979eb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/data/questions.js" afterPath="$PROJECT_DIR$/app/data/questions.js" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/app/public/images/jacobJones.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/public/images/jeremyStephan.jpeg" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,22 +15,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="scots.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/data/scots.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="43" column="6" lean-forward="true" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="questions.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/data/questions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1680">
-              <caret line="59" column="434" lean-forward="false" selection-start-line="59" selection-start-column="434" selection-end-line="59" selection-end-column="434" />
-              <folding />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="240">
+                <caret line="7" column="134" lean-forward="false" selection-start-line="7" selection-start-column="134" selection-end-line="7" selection-end-column="134" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -62,10 +57,10 @@
         <option value="$PROJECT_DIR$/app/public/html/survey.html" />
         <option value="$PROJECT_DIR$/app/public/js/survey.js" />
         <option value="$PROJECT_DIR$/app/public/css/survey.css" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/routing/apiRoutes.js" />
         <option value="$PROJECT_DIR$/app/data/scots.js" />
         <option value="$PROJECT_DIR$/app/data/questions.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -108,17 +103,6 @@
             <path>
               <item name="snelling-scots" type="b2602c69:ProjectViewProjectNode" />
               <item name="snelling-scots" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="snelling-scots" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snelling-scots" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="snelling-scots" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snelling-scots" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -246,12 +230,12 @@
       <workItem from="1522652298206" duration="1186000" />
       <workItem from="1522697353853" duration="2029000" />
       <workItem from="1522700435226" duration="10935000" />
-      <workItem from="1522776833838" duration="5958000" />
+      <workItem from="1522776833838" duration="6306000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22517000" />
+    <option name="totallyTimeSpent" value="22865000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="299" y="23" width="942" height="823" extended-state="0" />
@@ -498,17 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="165">
-            <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/public/js/survey.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -541,6 +514,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/data/questions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="59" column="434" lean-forward="false" selection-start-line="59" selection-start-column="434" selection-end-line="59" selection-end-column="434" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/data/scots.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
@@ -549,11 +530,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/data/questions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="59" column="434" lean-forward="false" selection-start-line="59" selection-start-column="434" selection-end-line="59" selection-end-column="434" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="240">
+            <caret line="7" column="134" lean-forward="false" selection-start-line="7" selection-start-column="134" selection-end-line="7" selection-end-column="134" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
