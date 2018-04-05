@@ -4,10 +4,8 @@
 
 ####TODOs:
 
-- reorder answer choices on a scale
-- continue with q9
-- add images to answer choices (images/choices)
+- add validation, no answers with val 0
+- add images to answer choices (images/choices/q#/)
 
-- convert responses in scots.js to integers on scale based on choices of answers.
 
 -almost done!

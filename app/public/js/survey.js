@@ -88,17 +88,18 @@ function updateAnswers(choice) {
 $("#submit-btn").on("click", function(event) {
     event.preventDefault();
 
-    var data = userChoices;
+    var user = {
+        choices: userChoices
+    };
 
     //AJAX posts the data to the match API
-    $.post("/api/match", data, function(result) {
-
+    $.post("/api/match", user, function(res) {
         //Retrieves the AJAX post result and updates the hidden modal.
         $("#match-message").text("You are most like...");
-        $("#match-name").text(result.name);
-        $("#match-img").attr("src", result.image);
+        $("#match-name").text(res.name);
+        $("#match-img").attr("src", res.image);
         $("#match-img").attr("width", "240px");
         $("#match-img").attr("height", "240px");
-        $("#match-description").text(result.description);
+        $("#match-description").text(res.description);
     });
 });
