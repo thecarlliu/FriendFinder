@@ -4,7 +4,6 @@
 
 ####TODOs:
 
-- add validation, no answers with val 0
 - add images to answer choices (images/choices/q#/)
 
 
