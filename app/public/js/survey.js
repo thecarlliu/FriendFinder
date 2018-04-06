@@ -53,10 +53,11 @@ $.get("/api/questions", function(req, res) {
             aImg.addClass("responsive-img");
 
             label.append(span);
+            label.append($("<br>"));
+            label.append(aImg);
             p.append(input);
             p.append(label);
             aCol.append(p);
-            aCol.append(aImg);
             aRow.append(aCol);
         }
 
