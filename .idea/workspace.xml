@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="127ce68e-77f6-4d6f-943a-9480b58979eb" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/public/js/materialize.js" afterPath="$PROJECT_DIR$/app/public/js/materialize.js" />
       <change beforePath="$PROJECT_DIR$/app/public/js/survey.js" afterPath="$PROJECT_DIR$/app/public/js/survey.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,9 +41,36 @@
       <file leaf-file-name="survey.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/public/js/survey.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="124" column="32" lean-forward="false" selection-start-line="124" selection-start-column="32" selection-end-line="124" selection-end-column="32" />
+            <state relative-caret-position="1875">
+              <caret line="124" column="21" lean-forward="false" selection-start-line="124" selection-start-column="21" selection-end-line="124" selection-end-column="21" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="materialize.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/public/js/materialize.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9645" column="20" lean-forward="false" selection-start-line="9645" selection-start-column="8" selection-end-line="9645" selection-end-column="20" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <marker date="1522985349000" expanded="true" signature="197884:197891" ph="&amp;##9660;" />
+                <marker date="1522985349000" expanded="true" signature="267549:267578" ph="..." />
+                <marker date="1522985349000" expanded="true" signature="267827:267837" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="materialize.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/public/js/materialize.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="28984" lean-forward="false" selection-start-line="5" selection-start-column="28984" selection-end-line="5" selection-end-column="28984" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,6 +112,8 @@
       <find>cabiin</find>
       <find>font-family</find>
       <find>Cabin</find>
+      <find>function tap</find>
+      <find>function</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -110,6 +141,7 @@
         <option value="$PROJECT_DIR$/app/routing/apiRoutes.js" />
         <option value="$PROJECT_DIR$/app/public/html/survey.html" />
         <option value="$PROJECT_DIR$/app/public/css/survey.css" />
+        <option value="$PROJECT_DIR$/app/public/js/materialize.js" />
         <option value="$PROJECT_DIR$/app/public/js/survey.js" />
       </list>
     </option>
@@ -188,6 +220,14 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snelling-scots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snelling-scots" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="materialize.js" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="snelling-scots" type="b2602c69:ProjectViewProjectNode" />
@@ -326,12 +366,12 @@
       <workItem from="1522700435226" duration="10935000" />
       <workItem from="1522776833838" duration="6379000" />
       <workItem from="1522952809566" duration="15859000" />
-      <workItem from="1522984281238" duration="448000" />
+      <workItem from="1522984281238" duration="1154000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39245000" />
+    <option name="totallyTimeSpent" value="39951000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="23" width="941" height="823" extended-state="0" />
@@ -608,6 +648,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="40" column="44" lean-forward="false" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -668,10 +709,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/js/materialize.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9645" column="20" lean-forward="false" selection-start-line="9645" selection-start-column="8" selection-end-line="9645" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1522985349000" expanded="true" signature="197884:197891" ph="&amp;##9660;" />
+            <marker date="1522985349000" expanded="true" signature="267549:267578" ph="..." />
+            <marker date="1522985349000" expanded="true" signature="267827:267837" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/js/materialize.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="28984" lean-forward="false" selection-start-line="5" selection-start-column="28984" selection-end-line="5" selection-end-column="28984" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/public/js/survey.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="124" column="32" lean-forward="false" selection-start-line="124" selection-start-column="32" selection-end-line="124" selection-end-column="32" />
+        <state relative-caret-position="1875">
+          <caret line="124" column="21" lean-forward="false" selection-start-line="124" selection-start-column="21" selection-end-line="124" selection-end-column="21" />
           <folding />
         </state>
       </provider>
