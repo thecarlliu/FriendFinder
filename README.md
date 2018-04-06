@@ -3,8 +3,7 @@
 ####Snelling Scots is a simple Express web app that allows the user to answer a buzzfeed-type questionnaire, and with those results, compare the user to a list of other people in order to determine which of them the user is most compatible with.
 
 ####TODOs:
-
-- add images to answer choices (images/choices/q#/)
+-upload goldman and ku avatars
 
 
 -almost done!

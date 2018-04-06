@@ -21,13 +21,13 @@ var list = [
         id: "Q4",
         question: "Favorite alcoholic beverage?",
         answers: ["Hennessy", "Tequila","Whiskey", "Fireball","Schnapps", "Wine", "Beer", "Sidewalk Slammer", "Cider", "Milk", "Water"],
-        images: ["../public/images/choices/q4/henny.jpg","../public/images/choices/q4/tequila.jpg","../public/images/choices/q4/whiskey.jpg","../public/images/choices/q4/fireball.jpg","../public/images/choices/q4/schnapps.jpg","../public/images/choices/q4/wine.jpg","../public/images/choices/q4/beer.jpg","../public/images/choices/q4/fourloko.jpg","../public/images/choices/q4/cider.jpg","../public/images/choices/q4/milk.jpg","../public/images/choices/q4/water.jpg"]
+        images: ["../public/images/choices/q4/henny.jpg","../public/images/choices/q4/tequila.jpg","../public/images/choices/q4/whiskey.jpg","../public/images/choices/q4/fireball.jpg","../public/images/choices/q4/schnapps.jpg","../public/images/choices/q4/wine.jpg","../public/images/choices/q4/beer.jpg","../public/images/choices/q4/slammer.jpg","../public/images/choices/q4/cider.jpg","../public/images/choices/q4/milk.jpg","../public/images/choices/q4/water.jpg"]
     },
     {
         id: "Q5",
         question: "Choose a gainz meal: ",
         answers: ["Dark Matter", "Protein Powder", "Chicken and Broccoli", "Chicken Pasta", "Chicken & Biscuits", "Fried Chicken", "Steak", "Mac & Cheese", "Tuna", "Hawaiian Food"],
-        images: ["../public/images/choices/q5/darkmatter.jpg","../public/images/choices/q5/protein.jpg","../public/images/choices/q5/chickenbroccoli.jpg","../public/images/choices/q5/chickenpasta.jpg","../public/images/choices/q5/popeyes.jpg","../public/images/choices/q5/kfc.jpg","../public/images/choices/q5/steak.jpg","../public/images/choices/q5/kraft.jpg","../public/images/choices/q5/tuna.jpg","../public/images/choices/q5/hawaiian.jpg"]
+        images: ["../public/images/choices/q5/darkmatter.jpg","../public/images/choices/q5/protein.jpg","../public/images/choices/q5/chickenbroccoli.jpg","../public/images/choices/q5/chickenpasta.jpg","../public/images/choices/q5/popeyes.jpg","../public/images/choices/q5/kfc.jpg","../public/images/choices/q5/steak.jpg","../public/images/choices/q5/mac.jpg","../public/images/choices/q5/tuna.jpg","../public/images/choices/q5/hawaiian.jpg"]
     },
     {
         id: "Q6",
