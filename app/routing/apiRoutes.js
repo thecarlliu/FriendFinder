@@ -41,6 +41,5 @@ function findMatch(userChoices, listScots) {
             match = listScots[i]; //update match
         }
     }
-    console.log(match.name);
     return match;
 }

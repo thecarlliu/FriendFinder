@@ -1,4 +1,5 @@
 var userChoices = [0,0,0,0,0,0,0,0,0,0];
+var qCount = 1;
 
 //Initializes carousel and select
 $(document).ready(function(){
@@ -10,7 +11,7 @@ $.get("/api/questions", function(req, res) {
 }).then(function(questions) {
     for (var i=0;i<questions.length;i++) {
         var carouselItem = $("<a>");
-        carouselItem.addClass("carousel-item amber-text text-accent-4");
+        carouselItem.addClass("carousel-item amber-text text-accent-4 responsive-img");
 
         var qDiv = $("<div>");
         qDiv.addClass("row");
@@ -47,8 +48,9 @@ $.get("/api/questions", function(req, res) {
             span.text(questions[i].answers[j]);
             var aImg = $("<img>");
             aImg.attr("src", questions[i].images[j]);
-            aImg.attr("width", "100px");
-            aImg.attr("height", "100px");
+            aImg.attr("width", "60%");
+            aImg.attr("height", "auto");
+            aImg.addClass("responsive-img");
 
             label.append(span);
             p.append(input);
@@ -70,12 +72,46 @@ $.get("/api/questions", function(req, res) {
 //Shows previous question
 $("#prev-btn").on("click", function() {
     $(".carousel").carousel("prev");
+    if (qCount===1) {
+        qCount = 10;
+    }
+    else {
+        qCount--;
+    }
+    updateCarouselSize("survey-carousel");
 });
 
 //Shows next question
 $("#next-btn").on("click", function() {
     $(".carousel").carousel("next");
+    if (qCount === 10) {
+        qCount = 1;
+    }
+    else {
+        qCount++;
+    }
+    updateCarouselSize("survey-carousel");
 });
+
+//Updates carousel size based on the question currently being viewed.
+function updateCarouselSize(carouselID) {
+    if (qCount===8) {
+        document.getElementById(carouselID).style['min-height'] = "1100px";
+    }
+    else if (qCount===9) {
+        document.getElementById(carouselID).style['min-height'] = "1400px";
+    }
+    else if (qCount===10) {
+        document.getElementById(carouselID).style['min-height'] = "1300px";
+    }
+    else if (qCount===1 || qCount===2 || qCount===3 || qCount === 6) {
+        document.getElementById(carouselID).style['min-height'] = "600px";
+    }
+    else {
+        document.getElementById(carouselID).style['min-height'] = "900px";
+    }
+
+}
 
 //Updates user's answers based on the choice that was clicked.
 function updateAnswers(choice) {
