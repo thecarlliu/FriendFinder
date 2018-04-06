@@ -71,7 +71,7 @@ $.get("/api/questions", function(req, res) {
 });
 
 //Shows previous question
-$("#prev-btn").on("click", function() {
+$("#prev-btn").on("touchstart click", function() {
     $(".carousel").carousel("prev");
     if (qCount===1) {
         qCount = 10;
@@ -83,7 +83,7 @@ $("#prev-btn").on("click", function() {
 });
 
 //Shows next question
-$("#next-btn").on("click", function() {
+$("#next-btn").on("touchstart click", function() {
     $(".carousel").carousel("next");
     if (qCount === 10) {
         qCount = 1;
@@ -122,7 +122,7 @@ function updateAnswers(choice) {
     console.log(userChoices);
 }
 
-$("#submit-btn").on("click", function(event) {
+$("#submit-btn").on("touchstart click", function(event) {
     event.preventDefault();
     var unfinished = false;
     for (var i=0;i<userChoices.length;i++) {
