@@ -6,4 +6,4 @@
 - upload goldman and ku avatars
 - get touch to click working (carousel content not mobile compatible currently)
 
--almost done!
+-almost done!`
